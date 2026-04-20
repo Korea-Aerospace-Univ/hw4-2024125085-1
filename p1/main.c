@@ -10,14 +10,14 @@ int main(void)
     scanf("%d",&guess);
     // 입력받은 두 값이 같지 않을 때마다 반복
     do{
-        if(num > guess) printf("%d보다 높습니다.\n",guess);
-        else printf("%d보다 낮습니다.\n",guess);
+        if(num > guess) printf("%d<?\n",guess);
+        else printf("%d>?\n",guess);
         scanf("%d",&guess);
         n++;
     }while(num != guess);
     // n회 반복할 때마다 증가시킨 변수 n으로 시도횟수 계산
-    printf("정답입니다.\n");
-    printf("시도횟수는 %d회",n);
+    printf("%d==?\n",guess);
+    printf("%d",n);
     
     return 0;
 }
