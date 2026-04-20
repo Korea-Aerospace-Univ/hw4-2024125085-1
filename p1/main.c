@@ -5,7 +5,7 @@
 int main(void)
 {
     // 변수선언 및 초기화
-    int i,num=0,guess=0,n=1;
+    int i,num=0,guess=0,n=0;
     scanf("%d",&num);
     scanf("%d",&guess);
     // 입력받은 두 값이 같지 않을 때마다 반복
